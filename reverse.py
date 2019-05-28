@@ -1,2 +1,2 @@
-z=input()
-print(z[::-1])
+iot=input()
+print(iot[::-1])
