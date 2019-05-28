@@ -1,2 +1,3 @@
 z=int(input())
-print("Hello"*z)
+for i in range(z):
+  print("Hello")
