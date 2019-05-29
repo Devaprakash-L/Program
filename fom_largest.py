@@ -5,4 +5,4 @@ lis=lis[::-1]
 d=""
 for i in lis:
     d=d+str(i)
-print(d)
+print(int(d))
