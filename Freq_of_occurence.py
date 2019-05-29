@@ -6,7 +6,6 @@ for i in range(len(lis)):
         d[lis[i]]=1
     else:
         d[lis[i]]+=1
-print(d)
 l1=[]
 for x,y in d.items():
     if y!=1:
