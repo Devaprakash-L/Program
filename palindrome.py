@@ -1,7 +1,12 @@
-z=int(input())
+n=int(input())
+a=n
 d=""
-while z>0:
-   r=z%10
+while n>0:
+   r=n%10
    d=d+str(r)
-   z=z//10
-print(d)
+   n=n//10
+d=int(d)
+if a==d:
+    print("yes")
+else:
+    print("no")
