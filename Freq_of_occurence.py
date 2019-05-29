@@ -12,7 +12,6 @@ for x,y in d.items():
     if y!=1:
         l1.append(x)
         cnt+=1
-
 if cnt==0:
     print("unique")
 else:
