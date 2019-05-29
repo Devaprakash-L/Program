@@ -7,7 +7,13 @@ for i in range(len(lis)):
     else:
         d[lis[i]]+=1
 l1=[]
+cnt=0
 for x,y in d.items():
     if y!=1:
-        l1.append(x)    
-print(*sorted(l1))
+        l1.append(x)
+        cnt+=1
+
+if cnt==0:
+    print("unique")
+else:
+    print(*sorted(l1))
