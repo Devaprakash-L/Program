@@ -1,8 +1,8 @@
-def fact(z):
-  if z==0 or z==1:
-    return z
+def fact(abc):
+  if abc==0 or abc==1:
+    return abc
   else:
-    return(z*fact(z-1))
+    return(abc*fact(abc-1))
 
-z=int(input())
-print(fact(z))
+abc=int(input())
+print(fact(abc))
