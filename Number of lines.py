@@ -1,2 +1,2 @@
-z=list(input().split('.'))
+z=input().split(".")
 print(len(z))
