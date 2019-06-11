@@ -8,6 +8,6 @@ for i in li2:
     else:
         c=1
 if c!=1:
-    print("yes")
+    print("YES")
 else:
-    print("no")
+    print("NO")
