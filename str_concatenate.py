@@ -1,2 +1,2 @@
-li=list(input().split())
-print("".join(li))
+dp=list(input().split())
+print("".join(dp))
